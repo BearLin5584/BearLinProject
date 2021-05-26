@@ -1,0 +1,66 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+header {
+  background-color: #c4c4c4;
+  width: 100%;
+  padding: 1rem;
+}
+
+nav {
+  background-color: #3b383c;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 1rem;
+}
+nav ul li {
+  padding: 0.5rem 0.75rem;
+}
+
+nav ul li a {
+  color: rgb(192, 192, 192);
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: all 0.25s ease;
+}
+nav ul li a:hover {
+  color: rgb(75, 233, 212);
+}
+.headertext {
+  font-size: 1rem;
+}
+
+.headerTitle {
+  font-size: 2.5rem;
+}
+
+main {
+  display: flex;
+  padding: 1.5rem;
+}
+
+h2 {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+section.bottom {
+  padding: 0rem 1rem;
+}
+
+.sp {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  color: red;
+}
+
+.ol {
+  padding: 0rem 1rem;
+}
